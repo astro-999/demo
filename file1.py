@@ -1,0 +1,20 @@
+# f  = open('bukkie.txt','w')
+# f.write('hello')
+# f.close()
+# f  = open('bukkie.txt','r')
+# f.read()
+# f.close()
+# f  = open('bukkie.txt','r')
+# # f.write('  hhhhhhhhh')
+# print(f.tell())
+# print(f.seek(4))
+# print(f.read())
+
+# f.close()
+
+f = open('bukkie.txt','w+')
+l1=['jagga','astro']
+f.writelines(l1)
+f.seek(0)
+print(f.read())
+f.close()
